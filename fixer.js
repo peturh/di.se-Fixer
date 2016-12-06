@@ -12,12 +12,11 @@ init();
 function init() {
     //When window loads
     window.onload = function () {
-        //Set timeout, since paywall is not appearing until after 1.5 seconds aprox.
+        //Timeout to run just after the other stuff
         setTimeout(function () {
             var body = $('body');
+            //Remove the paywall
             body.find('.paywall-content').css('height','');
-
         }, 0);
-
     };
 }
