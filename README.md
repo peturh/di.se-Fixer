@@ -1,4 +1,4 @@
-# DN-Fixer
+# DI-Fixer
 A small little extension for removing the paywall on di.se
 
 ## Download
