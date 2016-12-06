@@ -14,10 +14,8 @@ function init() {
     //When window loads
     window.onload = function () {
         //Timeout to run just after the other stuff, no "real" timeout needed
-        setTimeout(function () {
             var body = $('body');
             //Remove the paywall
             body.find('.paywall-content').css('height','');
-        }, 0);
     };
 }
