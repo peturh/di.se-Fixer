@@ -1,0 +1,1 @@
+function _ini(){document.getElementsByTagName("html")[0].style.display="none",window.onload=function(){document.getElementsByTagName("body")[0].style.background="none",document.getElementsByTagName("html")[0].style.display="block"}}_ini();
