@@ -6,6 +6,8 @@ $(document).ready(function(){
     body.find('.di_panorama-compensation').css('height',0);
     body.find('.di_panorama.js_panorama').css('height',0);
     body.find('.di_panorama-wrapper').css('height',0);
+    //Untested, but fixed the small, small bar at the top on desktop
+    body.find('.di_panorama').css('top','-6px');
 });
 
 //Run the init() method
