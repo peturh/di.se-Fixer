@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "DI.se Fixer",
   "description": "This removes the paywall on di.se and the big ad thing at the top",
-  "version": "1.1",
+  "version": "1.2",
   "content_scripts": [ {
     "js": ["jquery.min.js","fixer.js"],
     "matches": [ "http://www.di.se/*", "https://www.di.se/*"],
